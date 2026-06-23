@@ -1,0 +1,59 @@
+.game-card{
+    background-color: white;
+}
+
+.game-box{
+    background-color: #fddddc;
+    border: 2px solid #ffb885;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.game-box label {
+    font-weight: bold;
+}
+
+#num-field {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-color: #ff63bb;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ff63bb;
+    padding: 15px 14px;
+    color: #ff63bb;
+    margin: 5px;
+    border-radius:  8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff63bb;
+    border: 1px solid white;
+    color: white;
+}
+
+#message-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(245, 66, 120);
+}
+
+#guess-count-text {
+    font-weight: bold;
+}
+
+#message-text:hover {
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin{
+    100% { transform: rotate(360deg); }
+}

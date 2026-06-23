@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="numgame.css">
+    <script  src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Number Guessing Game</h1>
+        <p class="tagline">Try to guess the number between 41 and 67</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="mytown.html">My Town</a>
+        <a href="numgame.html">Number Game</a>
+    </nav>
+
+  <main>
+    <section class="card game-card">
+        <h2>Play the Game</h2>
+        <p>Type a number, then click <b>Make Guess</b>. The page will tell you if your guess is too low, too high, or correct</p>
+    
+    <div class="game-box">
+        <label for="num-field">Make a guess:</label>
+        <input id="num-field" type="number">
+        <button id="guess-button">Make Guess</button>
+        <button id="reset-button">New Game</button>
+        <p id="message-text">Enter a number and make your guess</p>
+        <p id="guess-count-text">Guesses: 0</p>
+    </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Vera Bourgeois for Launch</p>
+  </footer>
+
+  <script src="numgame.js"></script>
+
+</body>
+</html>
